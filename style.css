@@ -1,0 +1,125 @@
+:root{
+    --color-text-primary: #6d7b93;
+    --color-text-secondary :#2949c7;
+    --color-white : white;
+    --color-header: rgba(230,244,252,255);
+    --main-title: #1f3e72;
+    --color-fondo: #eaefff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 1.5rem;
+    background: linear-gradient(to right ,var(--color-white) 50%, var(--color-header) 50%);
+    position: sticky;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-logo{
+    color: var(--color-text-secondary);
+    font-size: 2rem;
+}
+
+.navbar-list{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    color: var(--color-text-primary);
+    align-items: center;
+}
+
+.navbar-button{
+    background-color:  var(--color-text-secondary);
+    color: var(--color-white);
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-text{
+    text-align: justify;
+}
+
+.main-text-content{
+
+}
+
+.main-text-title{
+    color: var(--main-title);
+    font-size: 2rem;
+}
+
+.main-text-description{
+    color: var(--color-text-primary);
+}
+
+.main-img{
+    height: 50%;
+    width:  50%;
+}
+
+.vaccination{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vaccination img{
+    height: 15%;
+    width:  15%;
+}
+
+.vaccine-content{
+    display: flex;
+    gap: 5rem;
+
+}
+
+.card {
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-fondo);
+    height: 150px;
+    margin-top: 1rem;
+}
+.card i{
+    color: var(--color-text-secondary);
+    background: var(--color-fondo);
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    size: 10px;
+}
+
+.card h4{
+    color: var(--main-title);
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.card p{
+    color: var(--color-text-primary);
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.preparation{
+    display: flex;
+    justify-content: space-between;
+}
